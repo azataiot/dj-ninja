@@ -9,6 +9,7 @@ from ninja_demo.schemas.common import OneSchema, TwoSchema, OneSchemaDeep, TwoSc
 router = Router()
 
 
+# =========== Sync ===========
 @router.get("/one", response={
     200: List[OneSchema],
 })
