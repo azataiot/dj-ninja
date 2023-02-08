@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from ninja_demo.urls import api
 
 urlpatterns = [
+    path("", api.urls),
+]
+
+urlpatterns += [
     path("admin/", admin.site.urls),
 ]
