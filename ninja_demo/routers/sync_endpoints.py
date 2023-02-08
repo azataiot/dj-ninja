@@ -1,4 +1,4 @@
-# ninja_demo/routers / one.py
+# ninja_demo/sync_endpoints / one.py
 # Created by azat at 8.02.2023
 from typing import List
 
