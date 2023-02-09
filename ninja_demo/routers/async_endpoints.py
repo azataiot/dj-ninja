@@ -10,7 +10,7 @@ from ninja_demo.schemas.user import UserSchema, UserSchemaManually
 router = Router()
 
 
-# =========== Sync ===========
+# =========== Async ===========
 @router.get("/async/one", response={
     200: List[OneSchema],
 })
